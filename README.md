@@ -9,8 +9,6 @@ Do budowy tego układu użyje :
 
 *-pasek led RGB WS2812B
 
-*-rezytor 330 Ohm
-
 *-zasilacz 5V.
 
 Kod do programu zostanie napisany w programie Arduino Ide.
