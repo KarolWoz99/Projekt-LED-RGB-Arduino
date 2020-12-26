@@ -9,7 +9,7 @@ Do budowy tego układu użyje :
 
 *-pasek led RGB WS2812B
 
-*-zasilacz 5V.
+*-zasilacz 5V 3A.
 
 Kod do programu zostanie napisany w programie Arduino Ide.
-Plan jest taki żeby działało to na 120 ledach próby bedą przeprowadzone na 7.
+Kod programu działa na 119 ledach.
