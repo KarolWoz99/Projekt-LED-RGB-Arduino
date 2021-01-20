@@ -113,3 +113,7 @@ Powyższy kod odpowiedzialny jest za przypisywanie kolororów poszczególnych le
 ![Kolory HUE](kolory.png)
 
 na podstawie tego planu przypisane są poszczególne kolory w zależności od podanego kąta w kodzie.
+
+Prezentacja:
+
+![Prezentacja](video-1609163054.mp4)
