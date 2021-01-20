@@ -3,13 +3,13 @@
 W projekcie chodzi o uzyskanie efektu tęczy na pasku LED.
 Do budowy tego układu użyje :
 
-*arduino uno 
+- arduino uno 
 
-*pasek led RGB WS2813
+- pasek led RGB WS2813
 
-*zasilacz 5V.
+- zasilacz 5V.
 
-*zestaw złączy 
+- zestaw złączy 
 
 Kod do programu zostanie napisany w programie Arduino Ide.
 Kod działa na 119 ledach programowalnych.
@@ -113,3 +113,6 @@ Powyższy kod odpowiedzialny jest za przypisywanie kolororów poszczególnych le
 ![Kolory HUE](kolory.png)
 
 na podstawie tego planu przypisane są poszczególne kolory w zależności od podanego kąta w kodzie. Przesunięcie fazowe przechodzi co 1 stopień w kącie dlatego zmiana kolorów jest płynna.
+
+Prezentacja działania programu:
+https://youtu.be/sXn7thFsthA
