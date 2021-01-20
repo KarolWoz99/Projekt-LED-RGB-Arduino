@@ -15,7 +15,7 @@ Kod do programu zostanie napisany w programie Arduino Ide.
 Kod działa na 119 ledach programowalnych.
 Układ został podłoczony zgodnie z poniższym schematem: 
 
-![Schemat układu](arduino led.png)
+![Schemat układu](arduinoled.png)
 
 ## Opis Kodu
 
