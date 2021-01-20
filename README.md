@@ -19,7 +19,7 @@ Układ został podłoczony zgodnie z poniższym schematem:
 
 ## Opis Kodu
 
-```
+```cpp
 #include <Adafruit_NeoPixel.h>  // bilbloteka z jakiej korzystałem
 
 const int pixelPin = 6;         // pin który jest programowany
@@ -32,7 +32,7 @@ Adafruit_NeoPixel strip(pixelCount, pixelPin, NEO_GRB + NEO_KHZ800);
 W tej części kodu korzystamy z biblioteki Adafruit_NeoPixel dzięki której komunikujemy sie z paskiem LED. 
 Kod zostaje wgrany na 6 pin wyjścia z Arduino i przypisane zostało 119 diod LED.
  
-```
+```cpp
 void setup()                    // komunikacja z paskiem ws2812b
 {
   strip.begin();
@@ -46,7 +46,7 @@ void loop()                     // deklaracja funkcji
 
 W tej części komunikujemy sie z paskiem LED oraz delkarujemy funkcję o nazwie "tencza".
 
-```
+```cpp
 void tecza() 
 {
   int period = 5000;                                            // czas jednego okresu animacji
@@ -67,7 +67,7 @@ Funkcja "tecza" zawiera czas jednego okresu animacji podanego w milisekundach po
 dif - odpowiedzialny jest za przesunięcie fazowe aby kolory zmieniały sie płynnie, następnie adresujemy poszczególne diody i przipisujemy im odpowiedni kolor
 natęnie mamy prezentację.
 
-```
+```cpp
 void setHue(int pixel, int hue) 
 {
   hue = hue % 360;                       // hue paleta kolorów na planie kola
